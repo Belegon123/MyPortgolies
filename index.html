@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Мое портфолио</title>
+  </head>
+  <body>
+    <header>
+      <img src="" alt="" />
+      <nav>
+        <ul class="menu">
+          <li><a href="">Обо мне</a></li>
+          <li><a href="">Навыки</a></li>
+          <li><a href="">Проекты</a></li>
+          <li><a href="">Контакты</a></li>
+        </ul>
+      </nav>
+      <input class="tema" type="checkbox">
+      <div class="burger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </header>
+    <main>
+      <section>
+        <h2>Обо мне!</h2>
+        <h4>Привет! Меня зовут Степан Шашерин.</h4>
+        <h4>
+          Я студент и начинаюший разработчик, который изучает создание сайтов с
+          помощью HTML, CSS и JAVASCRIPT.
+        </h4>
+        <h4>
+          Моя цель - стать хорошим разработчиком и создавать полезные и
+          интересные проекты!
+        </h4>
+        <button class="cont"></button>
+      </section>
+      <iframe
+          class = 'strok'
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/jc5Upe8xIN0?si=4ot8Wilmks-eFnlR"
+          title="YouTube video player"
+          frameborder="0"
+          allow="
+            accelerometer;
+            autoplay;
+            clipboard-write;
+            encrypted-media;
+            gyroscope;
+            picture-in-picture;
+            web-share;
+          "
+          referrerpolicy="strict-origin-when-cross-origin"
+          allowfullscreen
+        ></iframe>
+      <section>
+        <h2>Навыки</h2>
+        <ul class="sites">
+          <img>
+          <li>HTML</li>
+          <img />
+          <li>CSS</li>
+          <img />
+          <li>JAVASCRIPT</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>Проекты</h2>
+        <div class="project">
+          <img />
+          <h3>Flappy Birds</h3>
+          <p>Мини-игра на JavaScript</p>
+          <a href="">Click me!</a>
+        </div>
+        <div class="project">
+          <img />
+          <h3>Массивы</h3>
+          <p>Работа с массивами(например нахождения наибольшего числа)</p>
+          <a href="">Click me!</a>
+        </div>
+        <div class="project">
+          <img />
+          <h3>Карты</h3>
+          <p>Добавление карт на сайт</p>
+          <a href="">Click me!</a>
+        </div>
+      </section>
+
+      <section>
+        <h2>Контакты</h2>
+        <p></p>
+      </section>
+        <form class="forma">
+          <label for="name">Ф.И.О</label>
+          <input id="name" placeholder="Введите свою Имя и Фамилию(Можно и отчество)" required name="name">
+          <label for="number">Телефон</label>
+          <input type="number" id="number" placeholder="Номер телефона" required name="number">
+          <label for="email">E-mail</label>
+          <input type="email" id="email" placeholder="E-mail" required name="email">
+          <label for="comment">Оставьте комментарий</label>
+          <textarea id="comment" placeholder="Пишите" name="comments">
+
+          </textarea>
+          <button>Отправить!</button>
+        </form>
+    </main>
+    <footer>
+      <p class="p">Все права защишены!</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
